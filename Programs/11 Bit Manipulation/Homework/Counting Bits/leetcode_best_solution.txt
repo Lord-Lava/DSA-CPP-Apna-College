@@ -1,0 +1,13 @@
+int* countBits(int num, int* returnSize){
+    *returnSize = ++num;
+    int * array = malloc(num*4);
+    array[0] = 0;
+    int count;
+    for(int i=1;i<num;++i) {
+        count = array[i>>1];
+        if(i & 1)
+            ++count;
+        array[i] = count;
+    }
+    return array;
+}

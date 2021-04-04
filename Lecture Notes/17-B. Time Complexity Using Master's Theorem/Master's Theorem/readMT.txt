@@ -1,0 +1,14 @@
+Reccurence Relation->
+T(n) = aT(n/b) + O^c;
+
+x=logb(a);
+
+If(c<x){
+   O(n^x);
+}
+else if(c==x){
+   O(n^c);
+}
+else if(c>x){
+   O(n^c logn)	
+}
