@@ -7,8 +7,8 @@ If(c<x){
    O(n^x);
 }
 else if(c==x){
-   O(n^c);
+   O(n^c logn);
 }
 else if(c>x){
-   O(n^c logn)	
+   O(n^c);	
 }

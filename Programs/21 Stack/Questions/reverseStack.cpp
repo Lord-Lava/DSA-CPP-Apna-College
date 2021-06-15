@@ -61,9 +61,11 @@ void insertAtBottom(stack &st, int ele){
     int topele=st.Top();
     st.pop();
     insertAtBottom(st,ele);
-
+                                                            
     st.push(topele);
 }
+
+// if return is encountered, the cursor will go to the 
 
 void reverseStack(stack &st){
     if(st.empty()){

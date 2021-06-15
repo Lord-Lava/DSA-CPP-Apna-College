@@ -5,8 +5,6 @@ using namespace std;
 void reverseSentence(string s){
     stack<string>st;
 
-    string word = "";
-
     for (int i = 0; i < s.length(); i++)
     {
         string word = "";

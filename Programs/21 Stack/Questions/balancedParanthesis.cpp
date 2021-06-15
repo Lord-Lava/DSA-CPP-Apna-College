@@ -7,7 +7,7 @@ bool isValid(string s){
 
     stack<char> st;
 
-    bool ans = true;
+    bool ans = true;     
 
     for (int i = 0; i < n; i++)
     {

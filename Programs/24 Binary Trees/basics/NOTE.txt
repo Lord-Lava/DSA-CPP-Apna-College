@@ -1,0 +1,4 @@
+We can not build a general (skewed in particular) BT using preorder and postorder sequences.
+
+
+We can however build a full/complete binary tree i.e. with no skewed branches using the above two traversal sequences.
