@@ -44,8 +44,6 @@ class stack{
     }
 };
 
-
-
 int main(){
     
     stack st;

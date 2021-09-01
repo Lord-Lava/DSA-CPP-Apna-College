@@ -65,8 +65,6 @@ void insertAtBottom(stack &st, int ele){
     st.push(topele);
 }
 
-// if return is encountered, the cursor will go to the 
-
 void reverseStack(stack &st){
     if(st.empty()){
         return;

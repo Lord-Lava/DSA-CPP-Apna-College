@@ -162,7 +162,7 @@ node* merge(node* &head1, node* &head2){
       p3=p3->next;
     }
 
-    while (p1!=NULL)
+    while (p2!=NULL)
     {
       p3->next=p2;
       p2=p2->next;

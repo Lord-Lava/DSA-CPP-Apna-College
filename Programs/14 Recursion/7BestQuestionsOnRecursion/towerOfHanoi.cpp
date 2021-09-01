@@ -11,6 +11,18 @@ void towerOfHanoi(int n,char src, char dest, char helper){
     towerOfHanoi(n-1,helper,dest,src);
 }
 
+/*
+4
+|
+3   |   |
+|
+2   |   |
+|
+1   |   |
+---------
+sr  hl  ds
+*/
+
 int main(){
     int n;
     cin>>n;
