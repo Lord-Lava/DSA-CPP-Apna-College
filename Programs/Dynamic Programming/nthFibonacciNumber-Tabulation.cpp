@@ -6,6 +6,10 @@ int main(){
     int n;
     cin>>n;
 
+    if(n<=1){
+        return n;
+    }
+
     int dp[n+1];
     memset(dp,-1,sizeof(dp));   //initializing dp by -1 (not necessary for this particular problem)
 
