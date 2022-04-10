@@ -70,7 +70,6 @@ node *reverse(node *&head)
     {
         next = curr->next;
         curr->next = prev;
-
         prev = curr;
         curr = next;
     }
